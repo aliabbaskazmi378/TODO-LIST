@@ -16,7 +16,7 @@ const ItemList = (props) => {
   return (
     <>
     <div>HERE'S IS YOUR LIST :)</div>
-        <table className="table table-bordered">
+        <table className="table table-striped">
             <thead>
                 <tr>
                     <th>Item</th>
