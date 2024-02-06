@@ -22,11 +22,11 @@ const Form = ({addItem}) => {
   return (
     <>
       <form className="form-inline">
-        <div className="form-group">
+        <div className="form-group-sm">
           <input
             type="text"
             name="item"
-            className="form-control input-sm"
+            className="form-control form-control-sm"
             value={item.item}
             onChange={handleChange}
             placeholder="Add Item"
