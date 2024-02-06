@@ -22,7 +22,7 @@ const Form = ({addItem}) => {
   return (
     <>
       <form className="form-inline">
-        <div className="form-group-sm">
+        <div className="form-group-sm col-sm-12">
           <input
             type="text"
             name="item"

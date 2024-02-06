@@ -33,8 +33,8 @@ function App() {
 
   return (
     <div className="App">
-      <div className="row justify-content-center">
-        <div className="col-sm-1-12 mx-auto">
+      <div className="row justify-content-center mt-5">
+        <div className="todo col-sm-1-12 mx-auto">
           <div className="card">
             <div className="card-body">
               <h3 className="card-title">
