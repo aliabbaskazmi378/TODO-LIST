@@ -40,14 +40,14 @@ function App() {
               <h3 className="card-title">
                 <Header />
               </h3>
-              <p className="card-text">
+              <div className="card-text">
                 <Form addItem={addItem} />
                 <ItemList
                   ItemList={ItemData}
                   removeItem={removeItem}
                   deleteAllItems={deleteAllItems}
                 />
-              </p>
+              </div>
             </div>
           </div>
         </div>
