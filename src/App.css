@@ -9,3 +9,7 @@
 .todo{
   width: 600px;
 }
+
+input[type=text]{
+  width: 80% !important;
+}
